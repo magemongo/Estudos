@@ -1,0 +1,6 @@
+C:\Users\antonio.namur\source\repos\DataW_Sucos\bin\Debug\DataW_Sucos.dacpac
+C:\Users\antonio.namur\source\repos\DataW_Sucos\bin\Debug\DataW_Sucos.dll
+C:\Users\antonio.namur\source\repos\DataW_Sucos\bin\Debug\DataW_Sucos.pdb
+C:\Users\antonio.namur\source\repos\DataW_Sucos\obj\Debug\DataW_Sucos.dll
+C:\Users\antonio.namur\source\repos\DataW_Sucos\obj\Debug\DataW_Sucos.pdb
+C:\Users\antonio.namur\source\repos\DataW_Sucos\obj\Debug\DataW_Sucos.sqlprojAssemblyReference.cache
