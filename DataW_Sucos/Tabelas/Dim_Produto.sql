@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Dim_Produto]
 (
 	[Cod_Produto] NVARCHAR(50) NOT NULL PRIMARY KEY, 
-    [Desc_] NVARCHAR(200) NULL, 
+    [Desc_Produto] NVARCHAR(200) NULL, 
     [Atr_Tamanho] NVARCHAR(200) NULL, 
     [Atr_Sabor] NVARCHAR(200) NULL, 
     [Cod_Marca] NVARCHAR(50) NULL, 

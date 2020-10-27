@@ -6,6 +6,6 @@
     [Meta_Custo] FLOAT NULL,
     PRIMARY KEY ([Cod_Produto], [Cod_Fabrica], [Cod_Dia]), 
     CONSTRAINT [FK_Fato_005_Dim_Produto] FOREIGN KEY ([Cod_Produto]) REFERENCES [Dim_Produto]([Cod_Produto]), 
-    CONSTRAINT [FK_Fato_005_Dim_Fabricas] FOREIGN KEY ([Cod_Fabrica]) REFERENCES [Dim_Fabricas]([Cod_Fabrica]),
+    CONSTRAINT [FK_Fato_005_Dim_Fabricas] FOREIGN KEY ([Cod_Fabrica]) REFERENCES [Dim_Fabrica]([Cod_Fabrica]),
     CONSTRAINT [FK_Fato_005_Dim_Tempo] FOREIGN KEY ([Cod_Dia]) REFERENCES [Dim_Tempo]([Cod_Dia])
 )

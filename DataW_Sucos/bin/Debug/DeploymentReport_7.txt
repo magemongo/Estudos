@@ -1,0 +1,30 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Dim_Produto]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Dim_Produto].[Desc_] is being dropped, data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[Dim_Produto] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Dim_Produto_Dim_Marca] (Foreign Key)
+       [dbo].[FK_Fato_001_Dim_Produto] (Foreign Key)
+       [dbo].[FK_Fato_002_Dim_Produto] (Foreign Key)
+       [dbo].[FK_Fato_004_Dim_Produto] (Foreign Key)
+       [dbo].[FK_Fato_005_Dim_Produto] (Foreign Key)
+     Create
+       [dbo].[FK_Dim_Produto_Dim_Marca] (Foreign Key)
+       [dbo].[FK_Fato_001_Dim_Produto] (Foreign Key)
+       [dbo].[FK_Fato_002_Dim_Produto] (Foreign Key)
+       [dbo].[FK_Fato_004_Dim_Produto] (Foreign Key)
+       [dbo].[FK_Fato_005_Dim_Produto] (Foreign Key)
+
+The column [dbo].[Dim_Produto].[Desc_] is being dropped, data loss could occur.
+
